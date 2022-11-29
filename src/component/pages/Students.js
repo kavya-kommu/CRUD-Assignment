@@ -1,8 +1,8 @@
-import React, {useState,useEffect} from "react";
-import axios from "axios";
+import React, {useEffect} from "react";
+
 import {Link} from "react-router-dom";
 const Students =() =>{
-    const [students,setStudents]=useState([]);
+    
     useEffect(()=>{
         console.log("My Channel");
 
